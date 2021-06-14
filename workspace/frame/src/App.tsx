@@ -32,7 +32,7 @@ export const App: React.FC = () => {
       case "flow": return "https://info.decentology.com/assets/blockchains/flow/flow-dappstarter.png";
       case "ethereum": return "https://info.decentology.com/assets/blockchains/ethereum/ethereum-dappstarter.png";
       case "polygon": return "https://info.decentology.com/assets/blockchains/polygon/polygon-dappstarter.png";
-      case "solana": network='devnet'; return "https://info.decentology.com/assets/blockchains/solana/solana-dappstarter.png";
+      case "solana": network='mainnet'; return "https://info.decentology.com/assets/blockchains/solana/solana-dappstarter.png";
       case "conflux": return "https://info.decentology.com/assets/blockchains/conflux/conflux-dappstarter.png";
       case "avalanche": return "https://info.decentology.com/assets/blockchains/avalanche/avalanche-dappstarter.png";
     }
