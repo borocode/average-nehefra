@@ -64,7 +64,7 @@ module.exports = class DappLib {
                                         decimals,
                                         TOKEN_PROGRAM_ID
                                     );
-  let network = config.httpUri.indexOf('devnet') ? 'devnet' : 'mainnet';
+  let network = config.httpUri.indexOf('mainnet') ? 'devnet' : 'mainnet';
   return {
         type: DappLib.DAPP_RESULT_OBJECT,
         label: 'Token PublicKey',
@@ -110,7 +110,7 @@ module.exports = class DappLib {
                           amount
                       );
 
-    let network = config.httpUri.indexOf('devnet') ? 'devnet' : 'mainnet';
+    let network = config.httpUri.indexOf('mainnet') ? 'devnet' : 'mainnet';
     return {
           type: DappLib.DAPP_RESULT_OBJECT,
           label: 'Token PublicKey',
